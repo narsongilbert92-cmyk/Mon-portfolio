@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulation d'un tableau</title>
+</head>
+<body>
+    
+    <table border="4" id="ta">
+
+        <tr> <th>3</th>  </tr>
+        <tr> <th>1</th>  </tr>
+        <tr> <th>2</th>  </tr>
+         
+    </table>
+
+       <br><br>
+
+       <label for="ajout">Ajouter un élément</label>
+       <input type="number" id="ajout" placeholder="Mettez ici l'élement" size="10" maxlength="10" oninput="AjouterElemts()">
+
+       <br><br>
+
+       <label for="suppr">Supprimer un élément</label>
+       <input type="number" id="suppr" placeholder="Mettez ici l'élement" size="10" maxlength="10" oninput="SupprimerElemts()">
+       <br>
+
+       <button onclick="Trier()">Trier(A-Z)</button>
+
+    <script>
+
+             let   z = [3, 1, 2];
+
+            function afficher(){
+
+               let table = document.getElementById("ta");
+
+                   table.innerHTML = "";
+                   
+                   for (let i = 0; i < z.length; i++) {
+                    let ligne = table.insertRow();
+                    let cellule = ligne.insertCell();
+                    cellule.innerText =  z[i];
+                   }
+            }
+
+
+        function AjouterElemts(){
+                       
+               let valeur = document.getElementById("ajout").value;
+
+                   if (valeur === "")   return;
+                  
+                valeur = Number(valeur);
+                z.push(valeur);
+                 
+                afficher();
+
+                 let table = document.getElementById("ajout").value = "";
+                  
+        }
+           
+    </script>
+
+    <script>
+                 
+          function SupprimerElemts(){
+               let valeur = document.getElementById("suppr").value;
+
+               if (valeur === "") return;
+                  
+               valeur = Number(valeur);
+               let index = z.indexOf(valeur);
+
+               if (index === -1) {
+                alert("Ce nombre n'existe pas dans le tableau.");
+                return;
+               }
+
+               z.splice(index, 1);
+
+               afficher();
+
+               let table = document.getElementById("suppr").value = "";
+                     
+          }         
+
+          function Trier(){
+            z.sort(function(a, b) {
+                return a - b;
+            });
+
+            afficher();
+          }
+    </script>
+</body>
+</html>
