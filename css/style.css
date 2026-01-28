@@ -164,19 +164,20 @@ ul {
 
 .message {
     background:#314940;
-    padding: 80px 20px;
+    padding: 30px 20px;
     
 }
 .special {
-    max-width: 900px;
+    max-width: 610px;
     margin: auto;
     text-align: center;
+    height: 600px;
 }
 
 .special h2 {
      color: #fff;
      margin-bottom: 40px;
-     font-size: 28px;
+     font-size: 24px;
      line-height: 1.4; 
      margin-top: 2px; 
 }
@@ -213,7 +214,7 @@ ul {
 }
 
 .form-first textarea {
-    height: 180px;
+    height: 150px;
     resize: none;
 }
 
@@ -272,8 +273,10 @@ footer {
 
 .tel a {
     color:#1c82e2 ;
+    font-size: 24px;
 }
 
 .tel a:hover { 
     color: #de91fc;
+
 }
