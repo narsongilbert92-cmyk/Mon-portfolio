@@ -31,6 +31,21 @@ car.forEach(card => {
 });
 
 
+const bx = document.querySelectorAll(".box");
+
+bx.forEach(box => {
+    box.addEventListener("mouseenter", () => {
+        box.style.transform = "scale(1.05)";
+        box.style.boxShadow = "0 10px 25px rgba(0,0,0,0.15)";
+    });
+
+    box.addEventListener("mouseleave", () => {
+        box.style.transform = "scale(1)";
+        box.style.boxShadow = "none";
+    });
+});
+
+
 const profil = document.querySelector(".tof-trois img");
 
    if(profil) {
@@ -72,3 +87,21 @@ const profil = document.querySelector(".tof-trois img");
      }
 
     });   
+
+
+    const scr = document.querySelectorAll('a[href^="#"]');
+
+    scr.forEach(link => {
+        link.addEventListener("click", function(e) {
+            e.preventDefault();
+
+            const lesId = this.getAttribute("href");
+            const lesSection = document.querySelector(lesId);
+
+            if (lesSection) {
+                lesSection.scrollIntoView ({
+                    behavior : "smooth", block : "start"
+                });
+            }
+        });
+    });
