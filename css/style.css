@@ -37,10 +37,10 @@ nav a {
     font-size: 13px;
 }
 
-@media(max-width : 100px) {
+@media(max-width : 30px) {
     .header{ 
         flex-direction: row;
-        gap: 15px;
+        gap: 10px;
         text-align: center;
     }
 
@@ -91,7 +91,7 @@ nav a:hover {
     
  }
 
-@media(max-width : 300px) {
+@media(max-width : 100px) {
     .tof-un {
         flex-direction: row;
         align-items: center;}
@@ -264,7 +264,7 @@ ul {
     transform: scale(1.05);
 }
 
-@media(max-width : 200px) {
+@media(max-width : 300px) {
     .form { flex-direction: row;}
 }
 
@@ -282,7 +282,7 @@ footer {
     border-radius: 8px;
 }
 
-@media(max-width : 10px) {
+@media(max-width : 50px) {
     .footer { 
         flex-direction: row;
         gap : 10px;
@@ -328,6 +328,7 @@ em {
     font-style: normal;
 }
  
+
 
 
 
