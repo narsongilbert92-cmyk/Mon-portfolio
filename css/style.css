@@ -257,14 +257,14 @@ ul {
     border-radius: 8px;
     font-size: 16px;
     transition: transform 0.3s ease;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .special-form button:hover {
     transform: scale(1.05);
 }
 
-@media(max-width : 100px) {
+@media(max-width : 200px) {
     .form { flex-direction: row;}
 }
 
@@ -282,7 +282,7 @@ footer {
     border-radius: 8px;
 }
 
-@media(max-width : 1px) {
+@media(max-width : 5px) {
     .footer { 
         flex-direction: row;
         gap : 10px;
@@ -328,6 +328,7 @@ em {
     font-style: normal;
 }
  
+
 
 
 
