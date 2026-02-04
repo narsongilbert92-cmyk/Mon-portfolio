@@ -257,7 +257,7 @@ ul {
     border-radius: 8px;
     font-size: 16px;
     transition: transform 0.3s ease;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 .special-form button:hover {
@@ -282,7 +282,7 @@ footer {
     border-radius: 8px;
 }
 
-@media(max-width : 200px) {
+@media(max-width : 100px) {
     .footer { 
         flex-direction: row;
         gap : 10px;
@@ -292,7 +292,7 @@ footer {
 .box-highlight {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 180px);
+    grid-template-rows: repeat(2, 190px);
     gap: 20px;   
 }
 
@@ -328,6 +328,7 @@ em {
     font-style: normal;
 }
  
+
 
 
 
