@@ -201,7 +201,7 @@ ul {
     max-width: 620px;
     margin: auto;
     text-align: center;
-    height: 630px;
+    height: 660px;
 }
 
 .special h2 {
@@ -282,7 +282,7 @@ footer {
     border-radius: 8px;
 }
 
-@media(max-width : 50px) {
+@media(max-width : 100px) {
     .footer { 
         flex-direction: row;
         gap : 10px;
@@ -328,6 +328,7 @@ em {
     font-style: normal;
 }
  
+
 
 
 
