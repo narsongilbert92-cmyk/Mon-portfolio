@@ -39,7 +39,7 @@ nav a {
 
 @media(max-width : 768px) {
     .header{ 
-        flex-direction: column;
+        flex-direction: row;
         gap: 15px;
         text-align: center;
     }
@@ -93,7 +93,7 @@ nav a:hover {
 
 @media(max-width : 768px) {
     .tof-un {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;}
 }
 
@@ -257,7 +257,7 @@ ul {
     border-radius: 8px;
     font-size: 16px;
     transition: transform 0.3s ease;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .special-form button:hover {
@@ -284,7 +284,7 @@ footer {
 
 @media(max-width : 600px) {
     .footer { 
-        flex-direction: column;
+        flex-direction: row;
         gap : 10px;
         text-align: center;}
 }
@@ -292,7 +292,7 @@ footer {
 .box-highlight {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 130px);
+    grid-template-rows: repeat(2, 150px);
     gap: 20px;   
 }
 
@@ -328,3 +328,4 @@ em {
     font-style: normal;
 }
  
+
