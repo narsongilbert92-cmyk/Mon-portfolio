@@ -279,9 +279,9 @@ footer {
     border-radius: 8px;
 }
 
-@media(max-width : 600px) {
+@media(max-width : 300px) {
     .footer { 
-        flex-direction: row;
+        flex-direction: column;
         
         text-align: center;}
 }
@@ -315,7 +315,7 @@ footer {
     padding: 20px;
     border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease ;
-    text-align: justify;
+   
 }
 
 .tel a {
@@ -333,6 +333,7 @@ em {
     font-style: normal;
 }
  
+
 
 
 
