@@ -37,7 +37,7 @@ nav a {
     font-size: 13px;
 }
 
-@media(max-width : 768px) {
+@media(max-width : 1000px) {
     .header{ 
         flex-direction: row;
        
@@ -124,7 +124,7 @@ section h2 {
 }
 
 @media(max-width : 300px) {
-    .card-container{ 
+    .card{ 
         flex-direction: row;
         gap: 10px;
         text-align: center;
@@ -303,7 +303,7 @@ footer {
 }
 
 @media(max-width : 300px) {
-    .box-highlight{ 
+    .box { 
         flex-direction: row;
         gap: 10px;
         text-align: center;
@@ -342,6 +342,7 @@ em {
     font-style: normal;
 }
  
+
 
 
 
