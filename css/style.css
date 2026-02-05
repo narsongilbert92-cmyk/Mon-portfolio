@@ -282,7 +282,7 @@ footer {
 @media(max-width : 300px) {
     .footer { 
         flex-direction: row;
-        gap : 10px;
+        
         text-align: center;}
 }
 
@@ -293,7 +293,7 @@ footer {
     gap: 20px;   
 }
 
-@media(max-width : 300px) {
+@media(max-width : 768px) {
     .box-highlight{ 
         flex-direction: row;
         gap: 10px;
@@ -333,6 +333,7 @@ em {
     font-style: normal;
 }
  
+
 
 
 
