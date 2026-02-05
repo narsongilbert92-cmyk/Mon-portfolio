@@ -88,10 +88,10 @@ nav a:hover {
     
  }
 
-@media(max-width : 100px) {
+@media(max-width : 900px) {
     .tof-un {
         flex-direction: row;
-        align-items: center;}
+ 
 }
 
 section {
@@ -126,8 +126,6 @@ section h2 {
 @media(max-width : 300px) {
     .card{ 
         flex-direction: row;
-        gap: 10px;
-        text-align: center;
     }    
 }
 
@@ -289,24 +287,22 @@ footer {
 
 @media(max-width : 300px) {
     .footer { 
-        flex-direction: column;
-        margin-left: 2px;
-        margin-right: 2px;
+        flex-direction: row;
         text-align: center;}
 }
 
 .box-highlight {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 200px);
+    grid-template-rows: repeat(2, 250px);
     gap: 20px;   
 }
 
 @media(max-width : 300px) {
     .box { 
         flex-direction: row;
-        gap: 10px;
-        text-align: center;
+     
+        text-align: justify;
     }    
 }
 
@@ -342,6 +338,7 @@ em {
     font-style: normal;
 }
  
+
 
 
 
