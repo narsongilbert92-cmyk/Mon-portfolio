@@ -37,11 +37,9 @@ nav a {
     font-size: 13px;
 }
 
-@media(max-width : 1000px) {
+@media(max-width : 900px) {
     .header{ 
         flex-direction: row;
-       
-        text-align: center;
     }
 
     
@@ -124,7 +122,7 @@ section h2 {
 }
 
 @media(max-width : 300px) {
-    .card{ 
+    .card-container{ 
         flex-direction: row;
     }    
 }
@@ -287,22 +285,19 @@ footer {
 
 @media(max-width : 300px) {
     .footer { 
-        flex-direction: row;
-        text-align: center;}
+        flex-direction: row;}
 }
 
 .box-highlight {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 250px);
+    grid-template-rows: repeat(2, 230px);
     gap: 20px;   
 }
 
 @media(max-width : 300px) {
-    .box { 
+    .box-highlight { 
         flex-direction: row;
-     
-        text-align: justify;
     }    
 }
 
@@ -338,6 +333,7 @@ em {
     font-style: normal;
 }
  
+
 
 
 
