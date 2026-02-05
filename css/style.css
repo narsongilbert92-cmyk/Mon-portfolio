@@ -279,7 +279,7 @@ footer {
     border-radius: 8px;
 }
 
-@media(max-width : 300px) {
+@media(max-width : 600px) {
     .footer { 
         flex-direction: row;
         
@@ -293,7 +293,7 @@ footer {
     gap: 20px;   
 }
 
-@media(max-width : 768px) {
+@media(max-width : 900px) {
     .box-highlight{ 
         flex-direction: row;
         gap: 10px;
@@ -333,6 +333,7 @@ em {
     font-style: normal;
 }
  
+
 
 
 
