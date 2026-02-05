@@ -37,10 +37,10 @@ nav a {
     font-size: 13px;
 }
 
-@media(max-width : 30px) {
+@media(max-width : 768px) {
     .header{ 
         flex-direction: row;
-        gap: 10px;
+       
         text-align: center;
     }
 
@@ -121,6 +121,14 @@ section h2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
+}
+
+@media(max-width : 300px) {
+    .card-container{ 
+        flex-direction: row;
+        gap: 10px;
+        text-align: center;
+    }    
 }
 
 .unique{
@@ -282,18 +290,19 @@ footer {
 @media(max-width : 300px) {
     .footer { 
         flex-direction: column;
-        
+        margin-left: 2px;
+        margin-right: 2px;
         text-align: center;}
 }
 
 .box-highlight {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 150px);
+    grid-template-rows: repeat(2, 200px);
     gap: 20px;   
 }
 
-@media(max-width : 900px) {
+@media(max-width : 300px) {
     .box-highlight{ 
         flex-direction: row;
         gap: 10px;
@@ -333,6 +342,7 @@ em {
     font-style: normal;
 }
  
+
 
 
 
